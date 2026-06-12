@@ -32,6 +32,18 @@ The higher the error value, the more suspicious it turns out to be. Any reconstr
 - Precision is approx 61% and recall is approx 42%. These scores are the metrics found within this model but still may not be good enough as it may still miss few fraud cases.
 - The csv file to be uploaded requires to be in a specified structure. The structure is mentioned in the webpage and it won't work for users who may not have required info for the model.
 
+### How to Run
+Access it here : [Spending Anomaly Detection](https://spending-anomaly-detection-harzk3ukrzc6rmwbxxk6oo.streamlit.app/)
+
+If you want to run the app locally on your device, then proceed with the following steps:
+
+1. Clone this repository:
+    `https://github.com/Manjit345/spending-anomaly-detection.git`
+2. Download the requirements:
+    `pip install -r requirements.txt`
+3. Run the Streamlit app:
+    `streamlit run app.py`
+
 ## License
 This project is open-source and available under the MIT License.
 
